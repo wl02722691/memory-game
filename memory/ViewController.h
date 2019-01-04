@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *gameView;
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 
+- (IBAction)resetFourAction:(id)sender;
+- (IBAction)resetSixAction:(id)sender;
 
 @end
 
